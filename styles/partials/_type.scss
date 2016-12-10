@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+html * {
+	font-family: 'Lora', serif;
+}
+
+h1 {
+	font-size: 40px;
+	color: white;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+
+h2 {
+	font-size: 30px;
+	color:white;
+	padding: 10px;
+}
+
+p {
+	font-size: 12px;
+	font-color: white;
+	padding: 10px;
+}
+
+.navigation * {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer * {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.navigation a , .footer a {
+	text-decoration: none;
+}
+
+.navigation a:link, .footer a:link {
+		color: #ddd;
+}
+.navigation a:visited, .footer a:visited {
+		color: #ddd;
+}
+.navigation a:hover, .footer a:hover {
+		color: white;
+}
+.navigation a:active, .footer a:active {
+		color: #ddd;
+}
+
+
