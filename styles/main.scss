@@ -2,13 +2,13 @@
 
 @import "partials/_variables.scss";
 
-@import "partials/_layout.scss";
+@import "partials/modules/_layout.scss";
 
-@import "partials/_nav.scss";
+@import "partials/landmarks/_nav.scss";
+@import "partials/landmarks/_nav_media.scss";
 
-@import "partials/_type.scss";
+@import "partials/modules/_typeography.scss";
 
-@import "partials/_footer.scss";
+@import "partials/landmarks/_footer.scss";
 
-@import "partials/_button.scss";
-
+@import "partials/modules/_button.scss";

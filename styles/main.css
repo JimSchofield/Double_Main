@@ -113,44 +113,51 @@ body {
 
   #mainText {
     margin-top: 50px; } }
-.navigation {
+.header-inner {
   background: rgba(118, 200, 214, 0.5);
   max-width: 900px;
   height: 50px;
-  margin: auto;
+  margin: auto; }
+
+.header-inner-menu {
   display: flex;
   flex-direction: row;
   align-items: center; }
 
-.navigation li:nth-child(2) {
+.header-inner-menu > * {
+  display: inline-block; }
+
+.header-inner-menu li:nth-child(2) {
   display: none; }
 
-.navigation img {
+.header-inner-menu img {
   display: block; }
 
-.navigation * {
+.header-inner-menu * {
   margin: 0 10px 0 10px; }
 
 @media all and (max-width: 600px) {
-  .navigation li:first-child {
+  .header-inner-menu li:first-child {
     display: none; }
 
-  .navigation li:nth-child(2) {
+  .header-inner-menu li:nth-child(2) {
     display: block; }
 
-  .navigation .li-hide {
+  .header-inner-menu .li-hide {
     display: none; }
 
-  .navigation .li-show {
+  .header-inner-menu .li-show {
     display: block; }
 
-  .navigation li {
+  .header-inner-menu li {
     border-bottom: 1px solid white;
     padding: 10px; }
 
-  .navigation {
+  .header-inner {
     height: auto;
-    width: 100%;
+    width: 100%; }
+
+  .header-inner-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -178,28 +185,28 @@ p {
   font-color: white;
   padding: 10px; }
 
-.navigation * {
+.header-inner-menu * {
   font-size: 18px;
   font-weight: bold; }
+
+.header-inner-menu a, .footer a {
+  text-decoration: none; }
+
+.header-inner-menu a:link, .footer a:link {
+  color: #ddd; }
+
+.header-inner-menu a:visited, .footer a:visited {
+  color: #ddd; }
+
+.header-inner-menu a:hover, .footer a:hover {
+  color: white; }
+
+.header-inner-menu a:active, .footer a:active {
+  color: #ddd; }
 
 .footer * {
   font-size: 14px;
   font-weight: bold; }
-
-.navigation a, .footer a {
-  text-decoration: none; }
-
-.navigation a:link, .footer a:link {
-  color: #ddd; }
-
-.navigation a:visited, .footer a:visited {
-  color: #ddd; }
-
-.navigation a:hover, .footer a:hover {
-  color: white; }
-
-.navigation a:active, .footer a:active {
-  color: #ddd; }
 
 .footer {
   max-width: 900px;
