@@ -1,0 +1,33 @@
+
+
+.header-inner {
+	background: $BACKGROUND_COLOR;
+	max-width: 900px;
+	height: 50px;
+	margin: auto;
+
+}
+
+.header-inner-menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header-inner-menu > * {
+	display: inline-block;
+}
+
+.header-inner-menu li:nth-child(2) { //hide menu button on large resolutions
+	display: none;
+}
+
+.header-inner-menu img {
+	display: block;
+}
+
+.header-inner-menu *  {
+	margin: 0 10px 0 10px;
+}
+
+
