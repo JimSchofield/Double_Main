@@ -2,8 +2,10 @@ body {
 	background-image: url('../public/forestshack.jpg');
 	background-position: center;
 	width: auto;
-	// background-size: 2000px;
-	// height: 450;
+}
+
+body * {
+	box-sizing: border-box;
 }
 
 .container {
@@ -13,6 +15,36 @@ body {
 	// border: 4px solid black;
 	box-sizing: border-box;
 }
+
+.grid > * {
+	display: inline-block;
+}
+
+.grid-box {
+	border: white 1px solid;
+	width: 450px;
+	height: 450px;
+	font-size: 16px;
+	padding: 20px;
+	float: left;
+}
+
+.grid-box-inner {
+	background-color: $BACKGROUND_COLOR;
+	border-radius: 3px;
+}
+
+.grid-box-inner > * {
+	padding: 20px;
+}
+
+.grid-box-cta {
+	text-align: center;
+}
+
+
+
+/*
 
 .content {
 	display: inline-block;
@@ -53,37 +85,12 @@ body {
 	margin: 5px 10px 20px 10px;
 }
 
-.content-3 {
-	width: 300px;
-	height: 300px;
-	background-color: rgba(20,20,20,.8);
-	border: 1px dashed black;
-	float: left;
-}
-
-.footer {
-	clear: both;
-}
 
 
-@media all and (max-width: 900px) {
-	.blank {
-		display: none;
-	}
-
-	.content-2 {
-		height: 350px;
-		width: auto;
-	}
-
-	.row-2 .content-2 {
-		margin: 10px 2% 20px 2%;
-		width: 95%;
-	}
-
-	#mainText {
-	margin-top: 50px;
-	}
 
 
-}
+
+
+
+
+} */
