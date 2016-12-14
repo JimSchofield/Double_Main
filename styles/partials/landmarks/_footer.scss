@@ -1,25 +1,23 @@
-.footer {
-	max-width: 900px;
-	background-color: $BACKGROUND_COLOR;
-	margin: auto;
-	clear: both;
+.footer-inner {
+    width: 100%;
+    background-color: $BACKGROUND_COLOR;
+    margin: auto;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+
+
 }
 
-.footer {
+.footer-primary {
 	height: 35px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer li {
-	margin: 0 15px 0 15px;
-	display: block;
-}
 
 @media all and (max-width: 900px) {
-	.footer {
-	width: 100%;
-	}
+
 }

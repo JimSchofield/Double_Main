@@ -15,37 +15,27 @@ html * {
 	padding: 10px;
 }
 
-h2 {
-	font-size: 30px;
-	color:white;
-	padding: 10px;
-}
-
-p {
-	font-size: 12px;
-	font-color: white;
-	padding: 10px;
-}
 
 .header-inner-menu * {
 	font-size: 18px;
 	font-weight: bold;
 }
 
-.header-inner-menu a , .footer a {
+.header-inner-menu a , .footer-primary a {
 	text-decoration: none;
+	padding: 10px;
 }
 
-.header-inner-menu a:link, .footer a:link {
+.header-inner-menu a:link, .footer-primary a:link {
 		color: #ddd;
 }
-.header-inner-menu a:visited, .footer a:visited {
+.header-inner-menu a:visited, .footer-primary a:visited {
 		color: #ddd;
 }
-.header-inner-menu a:hover, .footer a:hover {
+.header-inner-menu a:hover, .footer-primary a:hover {
 		color: white;
 }
-.header-inner-menu a:active, .footer a:active {
+.header-inner-menu a:active, .footer-primary a:active {
 		color: #ddd;
 }
 
