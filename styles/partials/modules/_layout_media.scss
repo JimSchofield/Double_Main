@@ -1,18 +1,12 @@
-/*@media all and (max-width: 900px) {
-	.blank {
-		display: none;
-	}
+@media all and (max-width: 600px) {
 
-	.content-2 {
-		height: 350px;
-		width: auto;
+	.grid {
+		flex-direction: column;
+		justify-content: center;
 	}
-
-	.row-2 .content-2 {
-		margin: 10px 2% 20px 2%;
-		width: 95%;
+	
+	.grid-box {
+		width: 100%;
+		height: auto;
 	}
-
-	#mainText {
-	margin-top: 50px;
-}*/
+}

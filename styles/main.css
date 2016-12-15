@@ -58,14 +58,17 @@ body * {
   font-size: 0;
   max-width: 900px;
   margin: auto;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-bottom: 35px; }
 
 .grid {
   display: flex;
-  flex-direction: row-reverse; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .grid-box {
-  width: 450px;
+  width: 300px;
   height: 450px;
   font-size: 16px;
   padding: 20px;
@@ -82,24 +85,14 @@ body * {
 .grid-box-cta {
   text-align: center; }
 
-/*@media all and (max-width: 900px) {
-	.blank {
-		display: none;
-	}
+@media all and (max-width: 600px) {
+  .grid {
+    flex-direction: column;
+    justify-content: center; }
 
-	.content-2 {
-		height: 350px;
-		width: auto;
-	}
-
-	.row-2 .content-2 {
-		margin: 10px 2% 20px 2%;
-		width: 95%;
-	}
-
-	#mainText {
-	margin-top: 50px;
-}*/
+  .grid-box {
+    width: 100%;
+    height: auto; } }
 .header-inner {
   background: rgba(118, 200, 214, 0.5);
   width: 100%;
@@ -124,31 +117,43 @@ body * {
   margin: 0 10px 0 10px; }
 
 @media all and (max-width: 600px) {
-  .header-inner-menu li:first-child {
-    display: none; }
-
-  .header-inner-menu li:nth-child(2) {
-    display: block; }
-
-  .header-inner-menu .li-hide {
-    display: none; }
-
-  .header-inner-menu .li-show {
-    display: block; }
-
-  .header-inner-menu li {
-    border-bottom: 1px solid white;
-    padding: 10px; }
-
   .header-inner {
     height: auto;
-    width: 100%; }
+    text-align: center; }
 
   .header-inner-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: rgba(118, 200, 214, 0.8); } }
+    background: rgba(118, 200, 214, 0.8);
+    width: 100%; }
+
+  .header-inner-menu li:first-child {
+    display: none; }
+
+  .header-inner-menu li:nth-child(2) {
+    display: inline-block; }
+
+  .header-inner-menu .li-hide {
+    display: none; }
+
+  .header-inner-menu .li-show {
+    display: inline-block; }
+
+  .header-inner-menu li {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 10px; }
+
+  #iconContainer {
+    display: inline-block; }
+
+  #menuIcon {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 4px; } }
 html * {
   font-family: 'Lora', serif; }
 
@@ -214,6 +219,7 @@ html * {
   transition-duration: .5s; }
 
 .button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
