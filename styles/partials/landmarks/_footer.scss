@@ -1,13 +1,12 @@
+footer {
+    display: table-row;
+}
+
 .footer-inner {
     width: 100%;
     background-color: $BACKGROUND_COLOR;
     margin: auto;
     clear: both;
-    position: fixed;
-    bottom: 0;
-    margin: auto;
-
-
 }
 
 .footer-primary {
